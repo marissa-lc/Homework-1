@@ -1,3 +1,5 @@
+/*index*/
+
 
 header {
     float: top left;
@@ -78,7 +80,6 @@ body {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-/* Center website */
 .main {
   max-width: 1000px;
   margin: auto;
@@ -121,16 +122,4 @@ h3 {
   padding: 10px;
 }
 
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
 
